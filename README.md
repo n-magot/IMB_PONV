@@ -1,6 +1,6 @@
 # IMB_PONV
 
-Code for the experimental section of the postoperative nausea and vomiting (PONV) paper:
+Code for the experimental section of the Postoperative Nausea and Vomiting (PONV) paper:
 
 > A Bayesian Approach for Combining EHR and RCT Data to Predict Conditional Average Treatment Effects: Methodology and Evaluation
 
