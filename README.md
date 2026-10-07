@@ -34,7 +34,7 @@ The data must satisfy these conditions:
 
 - All variables are discrete. Discretize continuous ones first.
 - The treatment is coded 0/1.
-- The outcome is coded 0/1, and **0 is the good outcome**.
+- The outcome is coded 0/1, and **0 is the "good" outcome (e.g., no PONV).**.
 - Every other column is used as a candidate covariate, so remove IDs and dates first.
 
 ## Run
