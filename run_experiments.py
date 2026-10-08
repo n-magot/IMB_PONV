@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-FindIMB: Bayesian model averaging over interventional Markov boundaries,
+FindIMB: Bayesian model averaging over subsets of Markov Boundary,
 combining observational (Do) and experimental (De) data.
 
-Author: N. Lelova
+Author: Konstantina Lelova
 
 What this script does
 ---------------------
 1. Runs a pruned forward search over covariate subsets Z and, for each Z,
    scores two competing hypotheses:
        H_Z^c     : the observational and experimental distributions
-                   P(Y | T, Z) coincide, so Do and De can be pooled;
+                   P(Y | T, Z) coincide, so Do and De can be pooled,
        H_Z^c_bar : they differ, so only De is informative.
    It then computes the posterior over (Z, hypothesis).
 2. Predicts P(Y | do(T), Z) on held-out experimental data by Bayesian model
