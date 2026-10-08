@@ -8,7 +8,7 @@ The method predicts the effect of a treatment by combining **observational** (EH
 
 For each set of covariates Z, the method weighs two hypotheses:
 
-- the observational and experimental data agree given Z, so both can be pooled;
+- the observational and experimental data agree given Z, so both can be pooled
 - they disagree, so only the experimental data are used.
 
 Predictions of P(Y | do(T), Z) are averaged over the sets Z and the two hypotheses. They are compared with three baselines:
